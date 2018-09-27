@@ -99,16 +99,12 @@ input, select, textarea {
 	}
 
 	ul, ol, p, dl {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 	a {
-		text-decoration: underline;
+		text-decoration: none;
 	}
-
-		a:hover {
-			text-decoration: none;
-		}
 
 	section > :last-child,
 	section:last-child,
@@ -121,7 +117,7 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: 100%;
-		width: 1200px;
+		width: 1500px;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -163,6 +159,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		justify-content: space-around;
 	}
 
 		.row > * {
@@ -226,7 +223,7 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 33.3333333333%;
+			width: 27%;
 		}
 
 		.row > .off-4 {
@@ -1398,6 +1395,8 @@ input, select, textarea {
 	.quote-list li {
 		padding: 1em 0 1em 0;
 		overflow: hidden;
+		display: flex;
+		align-items: center;
 	}
 
 		.quote-list li:first-child {
@@ -1415,7 +1414,7 @@ input, select, textarea {
 		}
 
 		.quote-list li p {
-			margin: 0 0 0 90px;
+			margin: 0 0 0 20px;
 			font-size: 1.2em;
 			font-style: italic;
 		}
@@ -1427,10 +1426,35 @@ input, select, textarea {
 			font-weight: 400;
 		}
 
+		#list-div {
+			width: fit-content;
+		}
+
+		#double-list {
+			display: flex;
+		}
+
+		.check-list {
+			margin-right: 25px;
+		}
+
 	.check-list li {
-		padding: 0.7em 0 0.7em 45px;
+		padding: 0.7em 0 0.7em 0px;
 		font-size: 1.2em;
-		background: url("images/icon-checkmark.png") 0px 1.05em no-repeat;
+		display: flex;
+		align-items: center;
+		min-width: 200px;
+	}
+
+	.check-list li i {
+		font-size: 40px;
+		margin-right: 15px;
+	}
+
+	.check-list li img {
+		margin-right: 15px;
+		width: 40px;
+		height: 40px;
 	}
 
 		.check-list li:first-child {
@@ -1462,6 +1486,10 @@ input, select, textarea {
 		box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
 		margin: 0 0 1.5em 0;
 		outline: 0;
+	}
+
+	#main-banner {
+		pointer-events: none;
 	}
 
 		.bordered-feature-image img {
@@ -1596,6 +1624,27 @@ input, select, textarea {
 
 		#features a {
 			color: #e0e8eb;
+		}
+
+		#banner-links {
+			display: flex;
+			justify-content: space-between;
+			padding: 0px 20%;
+		}
+
+		#banner-links a {
+			color: #e0e8eb;
+			display: flex;
+			align-items: center;
+			text-decoration: none;
+		}
+
+		#banner-links a img {
+			height: 27px;
+			width: 27px;
+			margin-right: 10px;
+
+			margin-bottom: 5px;
 		}
 
 		#features strong {

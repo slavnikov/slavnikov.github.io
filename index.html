@@ -5,6 +5,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
 		<div id="page-wrapper">
@@ -16,16 +18,16 @@
 							<div class="col-12">
 
 								<!-- Logo -->
-									<h1><a href="index.html" id="logo">Halcyonic</a></h1>
+									<h1><a href="index.html" id="logo">Dmitry Slavnikov</a></h1>
 
 								<!-- Nav -->
-									<nav id="nav">
+									<!-- <nav id="nav">
 										<a href="index.html">Homepage</a>
 										<a href="threecolumn.html">Three Column</a>
 										<a href="twocolumn1.html">Two Column #1</a>
 										<a href="twocolumn2.html">Two Column #2</a>
 										<a href="onecolumn.html">One Column</a>
-									</nav>
+									</nav> -->
 
 							</div>
 						</div>
@@ -36,14 +38,18 @@
 								<div class="col-6 col-12-medium">
 
 									<!-- Banner Copy -->
-										<p>We do something really useful, important, and unique. Learn all about it here ...</p>
-										<a href="#" class="button-large">Go on, click me!</a>
+									<p>Software developer working with Rails, React-Redux, SQL, and more. Dedicated to making modern, configurable, and user friendly appslications.</p>
+									<div id="banner-links">
+										<a href="https://github.com/slavnikov"> <img src="./images/github_logo.png" alt=""> Github</a>
+										<a href="https://www.linkedin.com/in/slavnikov"> <img src="./images/linkedin_logo.png" alt=""> LinkedIn</a>
+										<a href="https://angel.co/dmitry-slavnikov"> <img src="./images/angellist_logo.png" alt=""> AngelList</a>
+									</div>
 
 								</div>
 								<div class="col-6 col-12-medium imp-medium">
 
 									<!-- Banner Image -->
-										<a href="#" class="bordered-feature-image"><img src="images/banner.jpg" alt="" /></a>
+										<a href="#" class="bordered-feature-image" id="main-banner"><img src="images/headshot.png" alt="" /></a>
 
 								</div>
 							</div>
@@ -55,9 +61,7 @@
 				<section id="features">
 					<div class="container">
 						<div class="row">
-							<div class="col-3 col-6-medium col-12-small">
-
-								<!-- Feature #1 -->
+							<!-- <div class="col-3 col-6-medium col-12-small">
 									<section>
 										<a href="#" class="bordered-feature-image"><img src="images/pic01.jpg" alt="" /></a>
 										<h2>Welcome to Halcyonic</h2>
@@ -69,17 +73,17 @@
 										</p>
 									</section>
 
-							</div>
+							</div> -->
 							<div class="col-3 col-6-medium col-12-small">
 
 								<!-- Feature #2 -->
 									<section>
-										<a href="#" class="bordered-feature-image"><img src="images/pic02.jpg" alt="" /></a>
-										<h2>Responsive You Say?</h2>
+										<a href="#" class="bordered-feature-image"><img src="images/project_logos/bootup.jpg" alt="" /></a>
+										<h2>BootUp</h2>
 										<p>
-											Yes! Halcyonic is built to be fully responsive so it looks great
-											at every screen size, from desktops to tablets to mobile phones.
+											An application build on Rails and powered by React-Redux. Inspired by Kickstarter, BootUp allows creators generate support for their projects before they head out to raise funding.
 										</p>
+										<a href="https://boot-up-fullstack.herokuapp.com/">Live</a> | <a href="https://github.com/slavnikov/BootUp">Repository</a>
 									</section>
 
 							</div>
@@ -87,19 +91,16 @@
 
 								<!-- Feature #3 -->
 									<section>
-										<a href="#" class="bordered-feature-image"><img src="images/pic03.jpg" alt="" /></a>
-										<h2>License Info</h2>
+										<a href="#" class="bordered-feature-image"><img src="images/project_logos/rubyquarry.jpg" alt="" /></a>
+										<h2>RubyQuarry</h2>
 										<p>
-											Halcyonic is licensed under the <a href="http://html5up.net/license">CCA</a> license,
-											so use it for personal/commercial use as much as you like (just keep
-											our credits intact).
+											An object-relational mapping library for managing SQLite3 databases with syntactic Ruby. Reduces the need for writing raw SQL and adds methods for fetching linked resources.
 										</p>
+										<a href="https://github.com/slavnikov/RubyQuarry">Repository</a>
 									</section>
 
 							</div>
-							<div class="col-3 col-6-medium col-12-small">
-
-								<!-- Feature #4 -->
+							<!-- <div class="col-3 col-6-medium col-12-small">
 									<section>
 										<a href="#" class="bordered-feature-image"><img src="images/pic04.jpg" alt="" /></a>
 										<h2>Volutpat etiam aliquam</h2>
@@ -109,7 +110,7 @@
 										</p>
 									</section>
 
-							</div>
+							</div> -->
 						</div>
 					</div>
 				</section>
@@ -120,36 +121,54 @@
 						<div class="row aln-center">
 							<div class="col-4 col-12-medium">
 
-								<!-- Box #1 -->
 									<section>
 										<header>
-											<h2>Who We Are</h2>
-											<h3>A subheading about who we are</h3>
+											<h2>About Me</h2>
+											<h3>Or there and back again.</h3>
 										</header>
-										<a href="#" class="feature-image"><img src="images/pic05.jpg" alt="" /></a>
 										<p>
-											Duis neque nisi, dapibus sed mattis quis, rutrum accumsan magna sed.
-											Suspendisse eu varius nibh. Suspendisse vitae magna eget odio amet mollis
-											justo facilisis quis. Sed sagittis amet lorem ipsum.
+											I am a New York based softwrae developer specializing in building responsive, configurable, and efficinet web applications. I beleive the best code is one that deconstructs the main functionality enough to allow quick and easy integration of new features and adoption of new technologies. <br>
+											Raised and educated in NY, I like my work-time fast-paced and focused, like my walking, and my three years with Teach For America in Bridgeport, CT made me tough as nails and always looking for the next challange to overcome.
 										</p>
+										<a href="./assets/docs/Dmitry_Slavnikov-Resume.pdf">Resume</a>
 									</section>
 
 							</div>
-							<div class="col-4 col-6-medium col-12-small">
+							<div class="col-4 col-6-medium col-12-small" id="list-div">
 
 								<!-- Box #2 -->
 									<section>
 										<header>
-											<h2>What We Do</h2>
-											<h3>A subheading about what we do</h3>
+											<h2>Skills</h2>
+											<h3>The tools I use to make things happen.</h3>
 										</header>
-										<ul class="check-list">
-											<li>Sed mattis quis rutrum accum</li>
-											<li>Eu varius nibh suspendisse lorem</li>
-											<li>Magna eget odio amet mollis justo</li>
-											<li>Facilisis quis sagittis mauris</li>
-											<li>Amet tellus gravida lorem ipsum</li>
-										</ul>
+										<div id="double-list">
+
+											<ul class="check-list">
+												<li><i class="devicon-rails-plain-wordmark colored"></i>
+													Ruby on Rails</li>
+													<li><i class="devicon-javascript-plain colored"></i>
+														JavaScript</li>
+														<li><i class="devicon-react-original colored"></i>
+															React</li>
+															<li> <img src="images/redux.png" alt=""> Redux</li>
+															<li><i class="devicon-html5-plain colored"></i>
+																HTML 5</li>
+															</ul>
+											<ul class="check-list">
+												<li><i class="devicon-css3-plain colored"></i>
+													CSS3</li>
+												<li><i class="devicon-postgresql-plain colored"></i>
+													PostgreSQL</li>
+														<li><i class="devicon-amazonwebservices-original colored"></i>
+															AWS</li>
+															<li> <i class="devicon-jquery-plain colored"></i>
+ jQuery</li>
+															<li><i class="devicon-git-plain colored"></i>
+</i>
+																Git</li>
+															</ul>
+										</div>
 									</section>
 
 							</div>
@@ -158,24 +177,19 @@
 								<!-- Box #3 -->
 									<section>
 										<header>
-											<h2>What People Are Saying</h2>
-											<h3>And a final subheading about our clients</h3>
+											<h2>Contact Me</h2>
+											<h3>Unless you want to sell me something.</h3>
 										</header>
 										<ul class="quote-list">
 											<li>
-												<img src="images/pic06.jpg" alt="" />
-												<p>"Neque nisidapibus mattis"</p>
-												<span>Jane Doe, CEO of UntitledCorp</span>
+												<i class="fa fa-phone" style="font-size:50px"></i>
+												<p>(347) 276 - 1708</p>
+												<!-- <span>Jane Doe, CEO of UntitledCorp</span> -->
 											</li>
 											<li>
-												<img src="images/pic07.jpg" alt="" />
-												<p>"Lorem ipsum consequat!"</p>
-												<span>John Doe, President of FakeBiz</span>
-											</li>
-											<li>
-												<img src="images/pic08.jpg" alt="" />
-												<p>"Magna veroeros amet tempus"</p>
-												<span>Mary Smith, CFO of UntitledBiz</span>
+												<i class="fa fa-at" style="font-size:50px"></i>
+												<p>dmitry.slavnikov@gmail.com</p>
+												<!-- <span>John Doe, President of FakeBiz</span> -->
 											</li>
 										</ul>
 									</section>
@@ -185,13 +199,11 @@
 					</div>
 				</section>
 
-			<!-- Footer -->
-				<section id="footer">
+				<!-- <section id="footer">
 					<div class="container">
 						<div class="row">
 							<div class="col-8 col-12-medium">
 
-								<!-- Links -->
 									<section>
 										<h2>Links to Important Stuff</h2>
 										<div>
@@ -235,7 +247,6 @@
 							</div>
 							<div class="col-4 col-12-medium imp-medium">
 
-								<!-- Blurb -->
 									<section>
 										<h2>An Informative Text Blurb</h2>
 										<p>
@@ -251,10 +262,9 @@
 					</div>
 				</section>
 
-			<!-- Copyright -->
 				<div id="copyright">
 					&copy; Untitled. All rights reserved. | Design: <a href="http://html5up.net">HTML5 UP</a>
-				</div>
+				</div> -->
 
 		</div>
 
