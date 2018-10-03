@@ -1497,6 +1497,48 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		#space_heroes_window {
+			padding-top: 35.7%;
+			background: #fff url(../../images/project_logos/SpaceHeroes.png);
+			background-position: center;
+			background-size: contain;
+			transition: background 0.5s;
+		}
+
+		#space_heroes_window:hover {
+			background: #fff url(../../images/project_gifs/space_heroes.gif);
+			background-position: center;
+			background-size: contain;
+		}
+
+		#bootup_window {
+			padding-top: 35.7%;
+			background: #fff url(../../images/project_logos/bootup.jpg);
+			background-position: center;
+			background-size: contain;
+			transition: background 0.5s;
+		}
+
+		#bootup_window:hover {
+			background: #fff url(../../images/project_gifs/bootup.gif);
+			background-position: center;
+			background-size: cover;
+		}
+
+		#ruby_quarry_window {
+			padding-top: 35.7%;
+			background: #fff url(../../images/project_logos/rubyquarry.jpg);
+			background-position: center;
+			background-size: contain;
+			transition: background 0.5s;
+		}
+
+		#ruby_quarry_window:hover {
+			background: #fff url(../../images/project_gifs/ruby_quarry.gif);
+			background-position: center;
+			background-size: cover;
+		}
+
 	.button-large {
 		background-image: -moz-linear-gradient(top, #ed391b, #ce1a00);
 		background-image: -webkit-linear-gradient(top, #ed391b, #ce1a00);
@@ -1630,6 +1672,12 @@ input, select, textarea {
 
 		#features a {
 			color: #e0e8eb;
+			transition: font-size 0.5s, text-shadow 0.5s;
+		}
+
+		#features a:hover {
+			font-size: 19px;
+    	text-shadow: 2px 2px 3px black !important;
 		}
 
 		#banner-links {
