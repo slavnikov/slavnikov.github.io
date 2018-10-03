@@ -1636,6 +1636,11 @@ input, select, textarea {
 			display: flex;
 			justify-content: space-between;
 			padding: 0px 20%;
+			color: #e0e8eb;
+			display: flex;
+			align-items: center;
+			text-decoration: none;
+			font-size: 26px;
 		}
 
 		#banner-links a {
@@ -1643,6 +1648,18 @@ input, select, textarea {
 			display: flex;
 			align-items: center;
 			text-decoration: none;
+			transition: font-size 0.3s, text-shadow 0.3s;
+		}
+
+
+		#banner-links i {
+			margin-bottom: 5px;
+			margin-right: 15px;
+		}
+
+		#banner-links a:hover {
+			font-size: 30px;
+			text-shadow: 2px 2px 3px black !important;
 		}
 
 		#banner-links a img {
