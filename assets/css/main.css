@@ -1426,6 +1426,10 @@ input, select, textarea {
 			font-weight: 400;
 		}
 
+		#contact-list a{
+			margin: 0 0 0 5%;
+		}
+
 		#list-div {
 			width: fit-content;
 		}
@@ -1683,7 +1687,7 @@ input, select, textarea {
 		#banner-links {
 			display: flex;
 			justify-content: space-between;
-			padding: 0px 20%;
+			padding: 0px 12%;
 			color: #e0e8eb;
 			display: flex;
 			align-items: center;
@@ -2141,4 +2145,16 @@ input, select, textarea {
 				padding: 20px 30px;
 			}
 
+			#contact-list a{
+				font-size: 4vw !important;
+			}
+			#contact-list i{
+				font-size: 4vw !important;
+			}
+
 	}
+		@media screen and (max-width: 600px) {
+			#banner-links {
+				flex-direction: column;
+			}
+		}
