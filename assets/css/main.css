@@ -1515,6 +1515,20 @@ input, select, textarea {
 			background-size: contain;
 		}
 
+		#ppm_window {
+			padding-top: 35.7%;
+			background: #fff url(../../images/project_logos/ppm.jpg);
+			background-position: center;
+			background-size: contain;
+			transition: background 0.5s;
+		}
+
+		#ppm_window:hover {
+			background: #fff url(../../images/project_gifs/ppm.gif);
+			background-position: op;
+			background-size: cover;
+		}
+
 		#bootup_window {
 			padding-top: 35.7%;
 			background: #fff url(../../images/project_logos/bootup.jpg);
